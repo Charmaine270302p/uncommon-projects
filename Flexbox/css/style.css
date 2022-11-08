@@ -1,0 +1,342 @@
+*{ margin: 0;
+    padding: 0;
+    font-family:sans-serif ;
+    box-sizing: border-box;
+}
+
+.hero{
+background-image: url(../img/joanna-kosinska.jpg);
+height: 90vh;
+width: 100%;
+background-position: center;
+background-size: cover;
+}
+
+.nav{
+/*  background-color: red;  */
+height: 42px;
+display: flex;
+justify-content: flex-end;
+}
+
+.menu{
+background-color: rgb(145, 124, 21);
+width: 42px;
+height: 42px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+border-radius: 5px;
+padding: 12px;
+margin: 10px;
+}
+    .menu hr{
+        border-radius:10px ;
+        border:none ;
+        width: 25px;
+        height:3px ;
+        background-color:white ;
+    }
+
+.herotxt{
+ /*    background-color: brown;   */
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.herotxt h1{
+font-size: 60px;
+font-family:sans-serif ;
+}
+
+.hero p{
+font-size: 15px;
+font-style: italic;
+margin: 20px;
+}
+
+.hero button{
+    width: 8%;
+    height:8% ;
+    background-color:rgb(0, 128, 163) ;
+    border-radius: 3px;
+    border:1px solid  rgb(0, 128, 163);
+    color: white;
+}
+
+.project{
+width: 100%;
+height: 40vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.project p{
+opacity: 50%;
+font-size: 11px;
+margin: 15px;
+}
+
+.project button{
+    width: 8%;
+    height:15% ;
+    background-color:rgb(0, 128, 163) ;
+    border-radius: 3px;
+    border:1px solid  rgb(0, 128, 163);
+    color: white;
+}
+
+.offer{
+background-color: rgb(0, 128, 163);
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.offer h5{
+color: rgb(248, 191, 0);
+}
+
+.offer  p{
+font-size: 40px;
+color: white;
+}
+
+.ico-set{
+   /*  background-color: aquamarine;
+    height: 200px;
+    width: 1200px; */
+    display: flex;
+    flex-direction: row;
+    margin: 30px;  
+    justify-content: center;
+    align-items: center;
+     gap: 100px;    
+} 
+
+.ico-set h6{
+font-size:10px ;
+color: white;
+opacity: 70%;
+display: flex;
+}
+         
+.ico-set h5{
+    font-size: 25px;
+    color: white;
+margin: 10px;
+}
+
+.web{
+    background-image: url(../img/joanna-kosinska-bF2vsubyHcQ-unsplash.jpg);
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+.web button{
+    width: 8%;
+    height:7% ;
+    background-color:rgb(0, 128, 163) ;
+    border-radius: 3px;
+    border:1px solid  rgb(0, 128, 163);
+    color: white;
+}
+
+.web h1{
+font-weight: 600px;
+font-size: 40px;
+margin: 30px;
+}
+
+.portfolio{
+    height: 120vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio h6{
+color: rgb(248, 191, 0);
+margin: 10px; 
+}
+
+.portfolio h3{
+font-size:25px ;
+font-weight: 50px;
+}
+
+.tile1{
+    background-image:url(../img/portfolio-1.jpg) ;
+    width:320px;
+    height:320px ;
+    background-position:center;
+    background-size:cover;
+    transition: 0.4s ease-in-out; 
+    }
+
+    .tile1:hover{
+        cursor: pointer;
+        transform: scale(0.9);
+        }
+
+    .tile2{
+        background-image:url(../img/joanna-2.jpg) ;
+        width:320px;
+        height:320px ;
+        background-position:center;
+        background-size:cover;
+        transition: 0.4s ease-in-out; 
+    }
+
+    .tile2:hover{
+        cursor: pointer;
+        transform: scale(0.9);
+        }
+
+        .tile3{
+            background-image:url(../img/joanna-3.jpg) ;
+            width:320px;
+            height:320px ;
+            background-position:center;
+            background-size:cover;
+            transition: 0.4s ease-in-out; 
+            }
+            
+            .tile3:hover{
+                cursor: pointer;
+                transform: scale(0.9);
+                }
+
+            .tile4{
+                background-image:url(../img/joanna-kosinska-bF2vsubyHcQ-unsplash.jpg) ;
+                width:320px;
+                height:320px ;
+                background-position:center;
+                background-size:cover;
+                transition: 0.4s ease-in-out; 
+                }
+            
+                .tile4:hover{
+                    cursor: pointer;
+                    transform: scale(0.9);
+                    }
+
+    .container1 {
+    display: flex;
+    justify-content: center;
+    }
+    
+    .container2{
+    display: flex;
+    justify-content: center;
+    }
+    
+
+ 
+
+    .tiles{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 40px; 
+    }
+
+.tiles h6 {
+color: white;
+margin: 20px;
+opacity: 87%;
+}
+
+.tiles h5{
+color: white;
+ margin: 20px; 
+padding-top: 190px;
+}
+
+    .button{
+             background-color: rgb(0, 128, 163);
+            width: 100%;
+            height: 40vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; 
+        }
+
+        .button h4{
+        color: white;
+        font-size: 18px;
+        margin: 20px;
+        }
+
+.button .first{
+    width: 80px;
+    height:37px ;
+    border: 1px solid white;
+    border-radius:3px ;
+} 
+
+.button .second{
+width: 80px;
+height: 37px;
+background-color: black;
+color: white;
+border: 1px solid black;
+border-radius:3px ;
+margin: 20px;
+}
+
+.map{
+    background-image: url(../img/dzikwa\ map.png);
+    height: 50vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    } 
+    
+.footer{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer img{
+width: 40px;
+justify-content: space-between;
+ margin: 10px; 
+}
+
+.footer p1{
+font-size: 10px;
+opacity: 40%;
+}
+
+
+
+
+
+
+
